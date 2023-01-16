@@ -1,5 +1,125 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100%;
+}
+
 .header-list {
 	display: flex;
+	justify-content: space-evenly;
+}
 
-	list-style-type: none;
+.header-icon {
+	width: 40%;
+}
+
+.header-icon-text {
+	width: 100%;
+
+	font-size: 2.6rem;
+	background: #ca4246;
+	background-color: #ca4246;
+	background: conic-gradient(
+		#ca4246 16.666%,
+		#e16541 16.666%,
+		#e16541 33.333%,
+		#f18f43 33.333%,
+		#f18f43 50%,
+		#8b9862 50%,
+		#8b9862 66.666%,
+		#476098 66.666%,
+		#476098 83.333%,
+		#a7489b 83.333%
+	);
+
+	/* Set thee background size and repeat properties. */
+	background-size: 57%;
+	background-repeat: repeat;
+
+	/* Use the text as a mask for the background. */
+	/* This will show the gradient as a text color rather than element bg. */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	/* Animate the text when loading the element. */
+	/* This animates it on page load and when hovering out. */
+	animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+	cursor: pointer;
+}
+
+.header-links {
+	width: 50%;
+
+	font-size: 1.15rem;
+	color: darkgray;
+}
+
+.header-pages {
+	width: 10%;
+}
+
+.header-pages-list {
+	display: flex;
+	justify-content: space-around;
+
+	width: 100%;
+}
+
+.header-pages-list a:hover img {
+	opacity: 0.3;
+}
+
+.header-pages-list img {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.header-icon-text:hover {
+	animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+.header-links li:hover {
+	color: white;
+	cursor: pointer;
+}
+
+/* Move the background and make it larger. 
+ Animation shown when hovering over the text. */
+@keyframes rainbow-text-animation {
+	0% {
+		background-size: 800%;
+		background-position: 2em 1em;
+	}
+	20% {
+		background-size: 20%;
+		background-position: 0 1em;
+	}
+	100% {
+		background-size: 40%;
+		background-position: -9em 1em;
+	}
+}
+
+/* Move the background and make it smaller. 
+ Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-animation-rev {
+	0% {
+		background-size: 38%;
+		background-position: 19em 1em;
+	}
+	20% {
+		background-size: 35%;
+		background-position: 15em 0.25em;
+	}
+	100% {
+		background-size: 30%;
+		background-position: 10em 0;
+	}
 }
