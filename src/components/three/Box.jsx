@@ -1,8 +1,20 @@
+import { useLoader, useFrame } from '@react-three/fiber'
+import { useRef } from 'react'
+import { TextureLoader } from 'three'
+import texture from '../../assets/pink-bg.jpg'
+
 export default function Box() {
+	const sphereRef = useRef()
+	const colorMap = useLoader(TextureLoader, texture)
+	useFrame(() => {
+		sphereRef.current.rotation.x += 0.00012
+		sphereRef.current.rotation.y -= 0.0015
+	})
+
 	return (
-		<mesh rotation={[90, 0, 20]}>
-			<icosahedronBufferGeometry attach='geometry' args={[1, 0]} />
-			<meshLambertMaterial attach='material' color='blue' />
+		<mesh rotation={[-0.5, 3, 0]} ref={sphereRef}>
+			<dodecahedronBufferGeometry attach='geometry' args={[3, 10]} />
+			<meshStandardMaterial map={colorMap} />
 		</mesh>
 	)
 }
