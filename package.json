@@ -1,9 +1,8 @@
 {
 	"name": "portfolio",
-	"private": false,
+	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://maat-mind.github.io/portfolio/",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
