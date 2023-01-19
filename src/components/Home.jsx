@@ -1,6 +1,5 @@
 import { Suspense } from 'react'
 import Header from './Header.jsx'
-import '../assets/css/home.css'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import Box from './three/Box'
@@ -12,6 +11,8 @@ export default function Home() {
 			<main>
 				<section>
 					<h1>My name is Oscar Bernal and I build things for web</h1>
+				</section>
+				<section>
 					<Canvas style={{ height: '500px' }}>
 						<OrbitControls enableZoom={false} />
 						<ambientLight intensity={0.5} />
