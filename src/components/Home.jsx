@@ -10,7 +10,9 @@ export default function Home() {
 			<Header />
 			<main>
 				<section>
-					<h1>My name is Oscar Bernal and I build things for web</h1>
+					<h1 className=''>
+						My name is Oscar Bernal and I build things for web
+					</h1>
 				</section>
 				<section>
 					<Canvas style={{ height: '500px' }}>

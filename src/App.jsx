@@ -2,7 +2,7 @@ import Home from './components/Home.jsx'
 
 function App() {
 	return (
-		<div className='App'>
+		<div className='md:container md:mx-auto'>
 			<Home />
 		</div>
 	)

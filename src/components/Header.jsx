@@ -3,40 +3,36 @@ import linkedinIcon from '../assets/linkedin.svg'
 
 export default function Header() {
 	return (
-		<header>
-			<div className='header-icon'>
-				<h1 className='header-icon-text'>&#123; maatmind &#125;</h1>
+		<header className='flex items-center justify-end my-8  md:w-full'>
+			<div className='w-1/3'>
+				<h1 className='text-5xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
+					maatmind
+				</h1>
 			</div>
-			<div className='header-links'>
-				<ul className='header-list'>
-					<li>Home</li>
-					<li>About</li>
-					<li>Tech Stack</li>
-					<li>Projects</li>
-					<li>Contact</li>
-				</ul>
-			</div>
-			<div className='header-pages'>
-				<ul className='header-pages-list'>
-					<li>
-						<a
-							className='header-pages-image'
-							href='https://github.com/maat-mind'
-							target='_blank'
-						>
-							<img src={githubIcon} alt='github logo icon' />
-						</a>
-					</li>
-					<li>
-						<a
-							className='header-pages-image'
-							href='https://linkedin.com/in/maat-mind'
-							target='_blank'
-						>
-							<img src={linkedinIcon} alt='github logo icon' />
-						</a>
-					</li>
-				</ul>
+			<div className='flex w-2/3'>
+				<section className='w-5/6'>
+					<ul className='flex justify-evenly text-2xl mx-4'>
+						<li className='mx-2'>Home</li>
+						<li className='mx-2'>About</li>
+						<li className='mx-2'>Tech Stack</li>
+						<li className='mx-2'>Projects</li>
+						<li className='mx-2'>Contact</li>
+					</ul>
+				</section>
+				<section className='w-1/6'>
+					<ul className='flex justify-center'>
+						<li className='mx-4'>
+							<a href='https://github.com/maat-mind' target='_blank'>
+								<img src={githubIcon} alt='github logo icon' />
+							</a>
+						</li>
+						<li className='mx-4'>
+							<a href='https://linkedin.com/in/maat-mind' target='_blank'>
+								<img src={linkedinIcon} alt='github logo icon' />
+							</a>
+						</li>
+					</ul>
+				</section>
 			</div>
 		</header>
 	)
