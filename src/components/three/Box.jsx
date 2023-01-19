@@ -2,10 +2,11 @@ import { useLoader, useFrame } from '@react-three/fiber'
 import { useRef } from 'react'
 import { TextureLoader } from 'three'
 import texture from '../../assets/pink-bg.jpg'
+import mundi from '../../assets/blue-mundi.jpg'
 
 export default function Box() {
 	const sphereRef = useRef()
-	const colorMap = useLoader(TextureLoader, texture)
+	const colorMap = useLoader(TextureLoader, mundi)
 	useFrame(() => {
 		sphereRef.current.rotation.x += 0.00012
 		sphereRef.current.rotation.y -= 0.0015
