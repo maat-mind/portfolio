@@ -1,13 +1,29 @@
+import { useEffect, useState } from 'react'
 import githubIcon from '../assets/github.svg'
 import linkedinIcon from '../assets/linkedin.svg'
 
 export default function Header() {
+	const [time, setTime] = useState('')
+
+	useEffect(() => {
+		const myInterval = setInterval(() => {
+			setTime(new Date().toLocaleTimeString('en-GB'))
+		}, 1000)
+
+		return () => {
+			clearInterval(myInterval)
+		}
+	}, [])
+
 	return (
 		<header className='flex items-center justify-end my-8  md:w-full'>
 			<div className='w-1/3'>
-				<h1 className='text-5xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
-					maatmind
-				</h1>
+				<span className='flex'>
+					<h1 className='text-3xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
+						[{time}] maat-mind@host:~$
+					</h1>
+					<p className='animate-pulse text-3xl'>|</p>
+				</span>
 			</div>
 			<div className='flex w-2/3'>
 				<section className='w-5/6'>

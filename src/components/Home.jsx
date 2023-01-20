@@ -34,17 +34,27 @@ export default function Home() {
 					</Canvas>
 				</section>
 			</main>
-			<section id='about' className='text-3xl text-center font-bold'>
-				<h2>About</h2>
+			<section id='about' className='mt-16'>
+				<h2 className='text-3xl text-center font-bold'>About</h2>
+				<p className='text-xl text-gray-400 text-center mt-2'>
+					This section is about me
+				</p>
 			</section>
-			<section id='tech-stack' className='text-3xl text-center font-bold'>
-				<h2>Tech Stack</h2>
+			<section id='tech-stack'>
+				<h2 className='text-3xl text-center font-bold'>Tech Stack</h2>
+				<p className='text-xl text-gray-400 text-center mt-2'>
+					Technologies I've been working with recently
+				</p>
 			</section>
-			<section id='projects' className='text-3xl text-center font-bold'>
-				<h2>Projects</h2>
+			<section id='projects'>
+				<h2 className='text-3xl text-center font-bold'>Projects</h2>
+				<p className='text-xl text-gray-400 text-center mt-2'>
+					Projects I've built so far
+				</p>
 			</section>
-			<section id='contact' className='text-3xl text-center font-bold'>
-				<h2>Contact</h2>
+			<section id='contact'>
+				<h2 className='text-3xl text-center font-bold'>Contact me</h2>
+				<p className='text-xl text-gray-400 text-center mt-2'></p>
 			</section>
 		</>
 	)
