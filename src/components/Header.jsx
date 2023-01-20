@@ -19,10 +19,12 @@ export default function Header() {
 		<header className='flex items-center justify-end my-8  md:w-full'>
 			<div className='w-1/3'>
 				<span className='flex'>
+					<p className='text-gray-600 text-3xl mx-2'>[{time}]</p>
 					<h1 className='text-3xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
-						[{time}] maat-mind@host:~$
+						maat-mind
 					</h1>
-					<p className='animate-pulse text-3xl'>|</p>
+					<p className='text-gray-600 text-3xl'>@host:~$</p>
+					<p className='text-gray-200 animate-pulse text-3xl'>|</p>
 				</span>
 			</div>
 			<div className='flex w-2/3'>
