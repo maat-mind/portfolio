@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import githubIcon from '../assets/github.svg'
 import linkedinIcon from '../assets/linkedin.svg'
+import Typewriter from './Typewriter'
 
 export default function Header() {
 	const [time, setTime] = useState('')
@@ -15,16 +16,17 @@ export default function Header() {
 		}
 	}, [])
 
+	const user = 'maat-mind/portfolio'
+
 	return (
 		<header className='flex items-center justify-end my-8  md:w-full'>
 			<div className='w-1/3'>
 				<span className='flex'>
 					<p className='text-gray-600 text-3xl mx-2'>[{time}]</p>
-					<h1 className='text-3xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
-						maat-mind
-					</h1>
-					<p className='text-gray-600 text-3xl'>@host:~$</p>
-					<p className='text-gray-200 animate-pulse text-3xl'>|</p>
+					<p className='text-3xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
+						{time && <Typewriter srcString={user} />}
+					</p>
+					<span className='animate-pulse mx-2 text-3xl'>_</span>
 				</span>
 			</div>
 			<div className='flex w-2/3'>
