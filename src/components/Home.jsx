@@ -8,6 +8,14 @@ export default function Home() {
 	return (
 		<>
 			<Header />
+		</>
+	)
+}
+
+/* export default function Home() {
+	return (
+		<>
+			<Header />
 			<main className='flex items-center mt-14 p-4'>
 				<section className='w-3/5'>
 					<span className='text-5xl'>
@@ -58,4 +66,4 @@ export default function Home() {
 			</section>
 		</>
 	)
-}
+} */
