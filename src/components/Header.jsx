@@ -121,6 +121,16 @@ export default function Header() {
 							<li className='border-b border-gray-400 my-8 uppercase'>
 								<a href='/contact'>Contact</a>
 							</li>
+							<li className='border-b border-gray-400 my-8 uppercase'>
+								<a href='https://github.com/maat-mind' target='_blank'>
+									GitHub
+								</a>
+							</li>
+							<li className='border-b border-gray-400 my-8 uppercase'>
+								<a href='https://linkedin.com/in/maat-mind' target='_blank'>
+									LinkedIn
+								</a>
+							</li>
 						</ul>
 					</div>
 				</section>
