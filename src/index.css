@@ -28,10 +28,20 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+html {
+	scroll-snap-type: y mandatory;
+}
+
 p {
 	font-family: 'Nunito', sans-serif;
 }
 
 li {
 	list-style-type: none;
+}
+
+main,
+section {
+	scroll-snap-align: start;
+	scroll-margin-top: 35px;
 }

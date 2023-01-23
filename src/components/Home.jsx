@@ -11,7 +11,7 @@ export default function Home() {
 		<>
 			<Header />
 			<main className='flex flex-col xl:flex-row items-center mt-14 p-4'>
-				<section className=' xl:w-3/5'>
+				<div className=' xl:w-3/5'>
 					<div
 						className='flex flex-col w-5/6 lg:w-3/4 m-auto p-0 p-6
 					px-0 pb-8 md:px-14 gap-y-6'
@@ -34,8 +34,8 @@ export default function Home() {
 							needs.
 						</p>
 					</div>
-				</section>
-				<section className='w-full xl:w-2/5'>
+				</div>
+				<div className='w-full xl:w-2/5'>
 					<Canvas className='transform-gpu' style={{ height: '500px' }}>
 						<OrbitControls enableZoom={false} />
 						<ambientLight intensity={0.5} />
@@ -44,7 +44,7 @@ export default function Home() {
 							<Box />
 						</Suspense>
 					</Canvas>
-				</section>
+				</div>
 			</main>
 			<section id='about' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>About</h2>
