@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import Header from './Header.jsx'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
+import linkedinIcon from '../assets/linkedin.svg'
 import Box from './three/Box'
 import Timeline from './Timeline.jsx'
 
@@ -45,9 +46,25 @@ export default function Home() {
 			<section id='about' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>About</h2>
 				<p className='text-xl text-gray-400 text-center mt-2'>
-					This section is about me
+					Professional experience and education
 				</p>
+				<hr class='w-52 h-1 mx-auto bg-[#1d3557] border-0 rounded my-8'></hr>
+
 				<Timeline />
+				<span className='flex items-center justify-evenly w-1/2 lg:w-1/4 m-auto mt-8 gap-x-2'>
+					<a
+						className='text-end header-item'
+						href='https://www.linkedin.com/in/maat-mind'
+						target='_blank'
+					>
+						Click to see more
+					</a>
+					<button className='rounded-full bg-blue-600 text-blue-50 dark:bg-blue-600 w-12 h-12 pb-1 font-bold text-2xl font-sans  drop-shadow-lg'>
+						<a href='https://www.linkedin.com/in/maat-mind' target='_blank'>
+							in
+						</a>
+					</button>
+				</span>
 			</section>
 			<section id='tech-stack' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>Tech Stack</h2>
