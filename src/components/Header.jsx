@@ -8,6 +8,10 @@ import './styles.css'
 export default function Header() {
 	const [isNavOpen, setIsNavOpen] = useState(false)
 
+	function handleClickLink() {
+		setIsNavOpen(false)
+	}
+
 	return (
 		<header className='flex items-center justify-between border-b border-gray-400 py-8 px-8 md:px-2'>
 			<div className='w-1/3'>
@@ -30,7 +34,7 @@ export default function Header() {
 					<div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
 						<div
 							className='absolute top-0 right-0 px-8 py-8'
-							onClick={() => setIsNavOpen(false)}
+							onClick={handleClickLink}
 						>
 							<svg
 								className='h-8 w-8 text-gray-600'
@@ -48,24 +52,40 @@ export default function Header() {
 
 						<ul className='flex flex-col items-center justify-between min-h-[250px]'>
 							<li className='border-b border-gray-400 my-8 uppercase'>
-								<a href='/about'>About</a>
+								<a onClick={handleClickLink} href='#about'>
+									About
+								</a>
 							</li>
 							<li className='border-b border-gray-400 my-8 uppercase'>
-								<a href='/portfolio'>Tech Stack</a>
+								<a onClick={handleClickLink} href='#tech-stack'>
+									Tech Stack
+								</a>
 							</li>
 							<li className='border-b border-gray-400 my-8 uppercase'>
-								<a href='/contact'>Project</a>
+								<a onClick={handleClickLink} href='#projects'>
+									Project
+								</a>
 							</li>
 							<li className='border-b border-gray-400 my-8 uppercase'>
-								<a href='/contact'>Contact</a>
+								<a onClick={handleClickLink} href='#contact'>
+									Contact
+								</a>
 							</li>
 							<li className='border-b border-gray-400 my-8 uppercase'>
-								<a href='https://github.com/maat-mind' target='_blank'>
+								<a
+									onClick={handleClickLink}
+									href='https://github.com/maat-mind'
+									target='_blank'
+								>
 									GitHub
 								</a>
 							</li>
 							<li className='border-b border-gray-400 my-8 uppercase'>
-								<a href='https://linkedin.com/in/maat-mind' target='_blank'>
+								<a
+									onClick={handleClickLink}
+									href='https://linkedin.com/in/maat-mind'
+									target='_blank'
+								>
 									LinkedIn
 								</a>
 							</li>
@@ -74,16 +94,16 @@ export default function Header() {
 				</section>
 				{/* DESKTOP-MENU */}
 				<div className='hidden justify-start items-center space-x-14 xl:flex'>
-					<a className='header-item' href='#'>
+					<a className='header-item' href='#about'>
 						About
 					</a>
-					<a className='header-item' href='#'>
+					<a className='header-item' href='#tech-stack'>
 						Tech Stack
 					</a>
-					<a className='header-item' href='#'>
+					<a className='header-item' href='#projects'>
 						Projects
 					</a>
-					<a className='header-item' href='#'>
+					<a className='header-item' href='#contact'>
 						Contact
 					</a>
 				</div>

@@ -8,8 +8,8 @@ export default function Home() {
 	return (
 		<>
 			<Header />
-			<main className='flex items-center mt-14 p-4'>
-				<section className='w-3/5'>
+			<main className='flex flex-col xl:flex-row items-center mt-14 p-4'>
+				<section className='w-screen xl:w-3/5'>
 					<div className='flex flex-col w-3/4 m-auto p-6 gap-y-6'>
 						<p className='text-3xl font-bold'>
 							<button className='rounded-full bg-yellow-400 dark:bg-yellow-400 w-20 h-10 text-end px-2 py-1 font-bold text-2xl font-sans mx-4 drop-shadow-lg'>
@@ -30,7 +30,7 @@ export default function Home() {
 						</p>
 					</div>
 				</section>
-				<section className='w-2/5'>
+				<section className='w-full xl:w-2/5'>
 					<Canvas className='transform-gpu' style={{ height: '500px' }}>
 						<OrbitControls enableZoom={false} />
 						<ambientLight intensity={0.5} />
