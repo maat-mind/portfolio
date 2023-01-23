@@ -7,8 +7,7 @@ export default function Box() {
 	const sphereRef = useRef()
 	const colorMap = useLoader(TextureLoader, texture)
 	useFrame(() => {
-		sphereRef.current.rotation.x += 0.00012
-		sphereRef.current.rotation.y -= 0.0015
+		sphereRef.current.rotation.y -= 0.00125
 	})
 
 	return (

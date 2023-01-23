@@ -3,6 +3,7 @@ import Header from './Header.jsx'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import Box from './three/Box'
+import Timeline from './Timeline.jsx'
 
 export default function Home() {
 	return (
@@ -46,20 +47,21 @@ export default function Home() {
 				<p className='text-xl text-gray-400 text-center mt-2'>
 					This section is about me
 				</p>
+				<Timeline />
 			</section>
-			<section id='tech-stack'>
+			<section id='tech-stack' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>Tech Stack</h2>
 				<p className='text-xl text-gray-400 text-center mt-2'>
 					Technologies I've been working with recently
 				</p>
 			</section>
-			<section id='projects'>
+			<section id='projects' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>Projects</h2>
 				<p className='text-xl text-gray-400 text-center mt-2'>
 					Projects I've built so far
 				</p>
 			</section>
-			<section id='contact'>
+			<section id='contact' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>Contact me</h2>
 				<p className='text-xl text-gray-400 text-center mt-2'></p>
 			</section>
