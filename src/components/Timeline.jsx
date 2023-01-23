@@ -49,7 +49,7 @@ export default function Timeline() {
 					August 2022 - January 2023
 				</time>
 				<h3 class='text-lg font-semibold text-gray-900 dark:text-white'>
-					JavaScript Full Stack Bootcamp
+					Javascript fullstack bootcamp
 				</h3>
 				<p class='mb-4 text-base font-normal text-gray-500 dark:text-gray-400'>
 					Formation highly oriented on projects in HTML & CSS, JS, Node,
