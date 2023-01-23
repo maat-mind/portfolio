@@ -22,8 +22,11 @@ export default function Home() {
 							code for the web
 						</h3>
 						<p className='text-xl'>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-							Praesentium, voluptate delectus sed minima officia est!
+							I have a solid understanding of modern JavaScript technologies
+							such as React, Node.js and Express. My experience includes
+							developing applications with microservices architecture, which
+							allows me to create scalable and adaptable solutions to business
+							needs.
 						</p>
 					</div>
 				</section>
