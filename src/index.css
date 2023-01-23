@@ -19,7 +19,7 @@
 	background-color: var(--white);
 	color: var(--royal-blue);
 
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;

@@ -11,15 +11,18 @@ export default function Home() {
 		<>
 			<Header />
 			<main className='flex flex-col xl:flex-row items-center mt-14 p-4'>
-				<section className='w-screen xl:w-3/5'>
-					<div className='flex flex-col w-3/4 m-auto p-6 gap-y-6'>
-						<p className='text-3xl font-bold'>
+				<section className=' xl:w-3/5'>
+					<div
+						className='flex flex-col w-5/6 lg:w-3/4 m-auto p-0 p-6
+					px-0 pb-8 md:px-14 gap-y-6'
+					>
+						<p className='flex items-center text-3xl font-bold'>
 							<button className='rounded-full bg-yellow-400 dark:bg-yellow-400 w-20 h-10 text-end px-2 py-1 font-bold text-2xl font-sans mx-4 drop-shadow-lg'>
 								JS
 							</button>
-							fullstack developer
+							<a>fullstack developer</a>
 						</p>
-						<h3 className='text-5xl font-bold'>
+						<h3 className='text-5xl text-center md:text-left font-bold'>
 							I design and <br />
 							code for the web
 						</h3>
