@@ -16,7 +16,7 @@ export default function Home() {
 					px-0 md:px-14 gap-y-8'
 					>
 						<p className='flex items-center text-3xl font-bold'>
-							<button className='rounded-full bg-yellow-400  w-20 h-10 text-end px-2 py-1 font-bold text-2xl font-sans mx-4 drop-shadow-lg'>
+							<button className='btn-pill rounded-full bg-yellow-400  w-20 h-10 text-end px-2 py-1 text-2xl mx-4 drop-shadow-lg'>
 								JS
 							</button>
 							<a>fullstack developer</a>
@@ -61,7 +61,7 @@ export default function Home() {
 					>
 						Click to see more
 					</a>
-					<button className='rounded-full bg-blue-600 text-blue-50 w-12 h-12 pb-1 font-bold text-2xl font-sans  drop-shadow-lg'>
+					<button className='btn-pill rounded-full bg-blue-600 text-blue-50 w-12 h-12 pb-1 text-2xl drop-shadow-lg'>
 						<a href='https://www.linkedin.com/in/maat-mind' target='_blank'>
 							in
 						</a>
