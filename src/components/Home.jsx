@@ -10,10 +10,10 @@ export default function Home() {
 		<>
 			<Header />
 			<main className='flex flex-col xl:flex-row items-center mt-14 p-4'>
-				<div className=' xl:w-3/5'>
+				<div className='xl:w-3/5'>
 					<div
 						className='flex flex-col w-5/6 lg:w-3/4 m-auto p-0 md:p-6
-					px-0 pb-8 md:px-14 gap-y-6'
+					px-0 md:px-14 gap-y-8'
 					>
 						<p className='flex items-center text-3xl font-bold'>
 							<button className='rounded-full bg-yellow-400  w-20 h-10 text-end px-2 py-1 font-bold text-2xl font-sans mx-4 drop-shadow-lg'>
@@ -53,7 +53,7 @@ export default function Home() {
 				<hr class='w-52 h-1 mx-auto bg-[#1d3557] border-0 rounded my-8'></hr>
 
 				<Timeline />
-				<span className='flex items-center justify-evenly w-1/2 lg:w-1/4 m-auto mt-8 gap-x-2'>
+				<span className='flex items-center justify-evenly w-[240px] sm:w-[320px] m-auto mt-8 gap-x-2'>
 					<a
 						className='text-end header-item'
 						href='https://www.linkedin.com/in/maat-mind'
