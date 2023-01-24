@@ -28,7 +28,7 @@
 }
 
 html {
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y proximity;
 }
 
 p {
@@ -39,10 +39,9 @@ li {
 	list-style-type: none;
 }
 
-main,
 section {
 	scroll-snap-align: start;
-	scroll-margin-top: 35px;
+	scroll-margin-top: 20px;
 }
 
 img {

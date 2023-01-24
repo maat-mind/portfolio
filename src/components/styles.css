@@ -42,8 +42,6 @@
 }
 
 .btn-pill {
-	font-weight: 700;
-	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-		'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-weight: bold;
+	font-family: ui-sans-serif, 'Segoe UI', Arial, sans-serif;
 }

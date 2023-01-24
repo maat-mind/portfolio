@@ -21,7 +21,7 @@ export default function Header() {
 
 			<nav className='w-1/3'>
 				{/* MOBILE-MENU */}
-				<section className='flex xl:hidden justify-end'>
+				<div className='flex xl:hidden justify-end'>
 					<div
 						className='HAMBURGER-ICON space-y-2'
 						onClick={() => setIsNavOpen((prev) => !prev)}
@@ -91,7 +91,7 @@ export default function Header() {
 							</li>
 						</ul>
 					</div>
-				</section>
+				</div>
 				{/* DESKTOP-MENU */}
 				<div className='hidden justify-start items-center space-x-14 xl:flex'>
 					<a className='header-item' href='#about'>
@@ -109,7 +109,7 @@ export default function Header() {
 				</div>
 			</nav>
 
-			<section className='w-1/3 hidden space-x-12 xl:flex justify-center'>
+			<div className='w-1/3 hidden space-x-12 xl:flex justify-center'>
 				<a
 					className='flex items-center'
 					href='https://github.com/maat-mind'
@@ -141,7 +141,7 @@ export default function Header() {
 						alt='email icon'
 					/>
 				</a>
-			</section>
+			</div>
 		</header>
 	)
 }
