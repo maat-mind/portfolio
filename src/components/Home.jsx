@@ -12,11 +12,11 @@ export default function Home() {
 			<main className='flex flex-col xl:flex-row items-center mt-14 p-4'>
 				<div className=' xl:w-3/5'>
 					<div
-						className='flex flex-col w-5/6 lg:w-3/4 m-auto p-0 p-6
+						className='flex flex-col w-5/6 lg:w-3/4 m-auto p-0 md:p-6
 					px-0 pb-8 md:px-14 gap-y-6'
 					>
 						<p className='flex items-center text-3xl font-bold'>
-							<button className='rounded-full bg-yellow-400 dark:bg-yellow-400 w-20 h-10 text-end px-2 py-1 font-bold text-2xl font-sans mx-4 drop-shadow-lg'>
+							<button className='rounded-full bg-yellow-400  w-20 h-10 text-end px-2 py-1 font-bold text-2xl font-sans mx-4 drop-shadow-lg'>
 								JS
 							</button>
 							<a>fullstack developer</a>
@@ -61,7 +61,7 @@ export default function Home() {
 					>
 						Click to see more
 					</a>
-					<button className='rounded-full bg-blue-600 text-blue-50 dark:bg-blue-600 w-12 h-12 pb-1 font-bold text-2xl font-sans  drop-shadow-lg'>
+					<button className='rounded-full bg-blue-600 text-blue-50 w-12 h-12 pb-1 font-bold text-2xl font-sans  drop-shadow-lg'>
 						<a href='https://www.linkedin.com/in/maat-mind' target='_blank'>
 							in
 						</a>
