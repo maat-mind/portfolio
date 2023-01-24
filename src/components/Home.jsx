@@ -4,6 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import Box from './three/Box'
 import Timeline from './Timeline.jsx'
+import TechStack from './TechStack.jsx'
 
 export default function Home() {
 	return (
@@ -73,97 +74,7 @@ export default function Home() {
 				<p className='text-xl text-gray-400 text-center mt-2'>
 					Technologies I've been working with recently
 				</p>
-				<div className='flex flex-wrap justify-evenly m-auto gap-4 my-12 w-[screen] lg:w-[920px]'>
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
-					/>
-
-					<img
-						className='w-16 lg:w-20'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg'
-					/>
-				</div>
+				<TechStack />
 			</section>
 			<section id='projects' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>Projects</h2>
