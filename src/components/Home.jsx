@@ -51,7 +51,7 @@ export default function Home() {
 				<p className='text-xl text-gray-400 text-center mt-2'>
 					Professional experience and education
 				</p>
-				<hr class='w-52 h-1 mx-auto bg-[#1d3557] border-0 rounded my-8'></hr>
+				<hr className='w-52 h-1 mx-auto bg-[#1d3557] border-0 rounded my-8'></hr>
 
 				<Timeline />
 				<span className='flex items-center justify-evenly w-[240px] sm:w-[320px] m-auto mt-8 gap-x-2'>
