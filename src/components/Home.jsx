@@ -6,6 +6,7 @@ import Box from './three/Box'
 import Timeline from './Timeline.jsx'
 import TechStack from './TechStack.jsx'
 import Projects from './Projects.jsx'
+import Contact from './Contact.jsx'
 
 export default function Home() {
 	return (
@@ -86,7 +87,10 @@ export default function Home() {
 			</section>
 			<section id='contact' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>Contact me</h2>
-				<p className='text-xl text-gray-400 text-center mt-2'></p>
+				<p className='text-xl text-gray-400 text-center mt-2'>
+					Get in touch with me for a meeting
+				</p>
+				<Contact />
 			</section>
 		</>
 	)
