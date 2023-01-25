@@ -5,6 +5,8 @@ import { OrbitControls } from '@react-three/drei'
 import Box from './three/Box'
 import Timeline from './Timeline.jsx'
 import TechStack from './TechStack.jsx'
+import { Projector } from 'three-stdlib/index.js'
+import Projects from './Projects.jsx'
 
 export default function Home() {
 	return (
@@ -81,6 +83,7 @@ export default function Home() {
 				<p className='text-xl text-gray-400 text-center mt-2'>
 					Projects I've built so far
 				</p>
+				<Projects />
 			</section>
 			<section id='contact' className='mt-16'>
 				<h2 className='text-3xl text-center font-bold'>Contact me</h2>
