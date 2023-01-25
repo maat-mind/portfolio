@@ -5,7 +5,6 @@ import { OrbitControls } from '@react-three/drei'
 import Box from './three/Box'
 import Timeline from './Timeline.jsx'
 import TechStack from './TechStack.jsx'
-import { Projector } from 'three-stdlib/index.js'
 import Projects from './Projects.jsx'
 
 export default function Home() {
