@@ -1,7 +1,7 @@
 export default function Projects() {
 	return (
 		<div className='flex flex-wrap w-[auto] md:w-[90%] m-auto justify-center gap-4 mt-10'>
-			<div class='group flex flex-col items-center gap-y-4 max-w-sm w-[500px] min-w-[450px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
+			<div class='group flex flex-col items-center gap-y-4 max-w-sm w-[500px] min-w-[400px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
 				<h4 className='text-center font-bold text-2xl'>Donut.com</h4>
 				<p className='text-center'>
 					This is my first website using three.js following official
@@ -56,7 +56,7 @@ export default function Projects() {
 				</button>
 			</div>
 
-			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[450px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
+			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[400px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
 				<h4 className='text-center font-bold text-2xl'>Henry Dogs</h4>
 				<p className='text-center'>
 					The objective of this project was to reinforce and connect the
@@ -72,15 +72,6 @@ export default function Projects() {
 				</video>
 
 				<span className='flex justify-evenly h-full items-center mx-5 gap-2 max-w-sm flex-wrap'>
-					<img
-						className='w-12'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
-					/>
-					<img
-						className='w-12'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
-					/>
-
 					<img
 						className='w-12'
 						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
@@ -131,7 +122,7 @@ export default function Projects() {
 				</button>
 			</div>
 
-			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[450px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
+			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[400px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
 				<h4 className='text-center font-bold text-2xl'>Crud Rest Api</h4>
 				<p className='text-center'>App built with Java Spring Boot Framework</p>
 
@@ -180,7 +171,7 @@ export default function Projects() {
 				</button>
 			</div>
 
-			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[450px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
+			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[400px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
 				<h4 className='text-center font-bold text-2xl'>Reply</h4>
 				<p className='text-center'>
 					This social network is the final group project to graduate from
@@ -212,10 +203,6 @@ export default function Projects() {
 					<img
 						className='w-12'
 						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg'
-					/>
-					<img
-						className='w-12'
-						src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
 					/>
 					<img
 						className='w-12'
@@ -255,7 +242,7 @@ export default function Projects() {
 				</button>
 			</div>
 
-			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[450px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
+			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[400px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
 				<h4 className='text-center font-bold text-2xl'>React calculator</h4>
 				<p className='text-center'>
 					Interactive calculator that allows you to perform basic operations
@@ -311,7 +298,7 @@ export default function Projects() {
 				</button>
 			</div>
 
-			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[450px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
+			<div class='group flex items-center flex-col gap-y-4 max-w-sm w-[500px] min-w-[400px] h-auto bg-white border border-gray-200 rounded-lg shadow py-4 px-[10px]'>
 				<h4 className='text-center font-bold text-2xl w-[80%] m-auto'>
 					Redux toolkit & Tailwind counter
 				</h4>
