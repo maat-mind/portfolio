@@ -19,7 +19,7 @@ export default function Home() {
 					px-0 md:px-14 gap-y-8'
 					>
 						<p className='flex items-center text-3xl font-bold'>
-							<button className='btn-pill rounded-full bg-yellow-400  w-20 h-10 text-end px-2 py-1 text-2xl mx-4 drop-shadow-lg'>
+							<button className='btn-pill rounded-full bg-yellow-400  w-20 h-10 text-end px-2 py-1 text-2xl mx-4 drop-shadow-lg dark:text-black'>
 								JS
 							</button>
 							<a>fullstack developer</a>

@@ -3,10 +3,10 @@ export default function Timeline() {
 		<ol className='relative border-l border-gray-200 px-8 mt-6 w-auto md:w-2/3 m-auto'>
 			<li className='mb-10 ml-4'>
 				<div className='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white'></div>
-				<time className='mb-1 text-sm font-normal leading-none text-gray-400 '>
+				<time className='mb-1 text-sm font-normal leading-none text-gray-400'>
 					Feb 2020 - June 2021
 				</time>
-				<h3 className='text-lg font-semibold text-gray-900'>
+				<h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
 					Associate degree in information systems development
 				</h3>
 				<p className='text-base mb-4 font-normal text-gray-500 '>
@@ -27,7 +27,7 @@ export default function Timeline() {
 				<time className='mb-1 text-sm font-normal leading-none text-gray-400 '>
 					January 2021 - December 2021
 				</time>
-				<h3 className='text-lg font-semibold text-gray-900'>
+				<h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
 					Junior software developer
 				</h3>
 				<p className='mb-4 text-base font-normal text-gray-500 '>
@@ -48,7 +48,7 @@ export default function Timeline() {
 				<time className='mb-1 text-sm font-normal leading-none text-gray-400 '>
 					August 2022 - January 2023
 				</time>
-				<h3 className='text-lg font-semibold text-gray-900'>
+				<h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
 					Javascript fullstack bootcamp
 				</h3>
 				<p className='mb-4 text-base font-normal text-gray-500 '>

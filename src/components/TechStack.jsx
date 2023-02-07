@@ -23,7 +23,7 @@ export default function TechStack() {
 
 			<img
 				className='w-16 lg:w-20'
-				src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg'
+				src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
 			/>
 
 			<img

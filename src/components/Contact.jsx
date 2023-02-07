@@ -1,6 +1,6 @@
 export default function Contact() {
 	return (
-		<div class='rounded-lg shadow-lg bg-white h-auto lg:h-96 w-5/6 lg:w-[80%] m-auto flex flex-wrap justify-around items-center px-4 py-12 my-8'>
+		<div class='rounded-lg shadow-lg bg-white  dark:bg-[#1d3557] h-auto lg:h-96 w-5/6 lg:w-[80%] m-auto flex flex-wrap justify-around items-center px-4 py-12 my-8'>
 			<div class='grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12 h-5/6'>
 				<div class='map-container-2 w-full'>
 					<iframe
