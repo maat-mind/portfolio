@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import githubIcon from '../assets/github.svg'
 import linkedinIcon from '../assets/linkedin.svg'
-import mailIcon from '../assets/mail.svg'
-import Typewriter from './Typewriter'
+import darkmode from '../assets/dark.svg'
 import './styles.css'
 
 export default function Header() {
@@ -137,8 +136,8 @@ export default function Header() {
 				<a href='#'>
 					<img
 						className='w-7 hover:opacity-[0.8]'
-						src={mailIcon}
-						alt='email icon'
+						src={darkmode}
+						alt='dark mode icon'
 					/>
 				</a>
 			</div>
