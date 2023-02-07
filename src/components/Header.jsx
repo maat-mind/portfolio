@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import githubIcon from '../assets/github.svg'
 import linkedinIcon from '../assets/linkedin.svg'
-import darkmode from '../assets/dark.svg'
+import mailIcon from '../assets/mail.svg'
 import './styles.css'
 
 export default function Header() {
@@ -50,27 +50,27 @@ export default function Header() {
 						</div>
 
 						<ul className='flex flex-col items-center justify-between min-h-[250px]'>
-							<li className='border-b border-gray-400 my-8 uppercase'>
+							<li className='my-8 uppercase'>
 								<a onClick={handleClickLink} href='#about'>
 									About
 								</a>
 							</li>
-							<li className='border-b border-gray-400 my-8 uppercase'>
+							<li className='my-8 uppercase'>
 								<a onClick={handleClickLink} href='#tech-stack'>
 									Tech Stack
 								</a>
 							</li>
-							<li className='border-b border-gray-400 my-8 uppercase'>
+							<li className='my-8 uppercase'>
 								<a onClick={handleClickLink} href='#projects'>
 									Project
 								</a>
 							</li>
-							<li className='border-b border-gray-400 my-8 uppercase'>
+							<li className='my-8 uppercase'>
 								<a onClick={handleClickLink} href='#contact'>
 									Contact
 								</a>
 							</li>
-							<li className='border-b border-gray-400 my-8 uppercase'>
+							<li className='my-8 uppercase'>
 								<a
 									onClick={handleClickLink}
 									href='https://github.com/maat-mind'
@@ -136,8 +136,8 @@ export default function Header() {
 				<a href='#'>
 					<img
 						className='w-7 hover:opacity-[0.8]'
-						src={darkmode}
-						alt='dark mode icon'
+						src={mailIcon}
+						alt='mail icon'
 					/>
 				</a>
 			</div>

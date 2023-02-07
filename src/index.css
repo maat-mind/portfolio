@@ -14,11 +14,10 @@
 	--baby-blue: #a8dadc;
 	--blue: #457b9d;
 	--royal-blue: #1d3557;
+	--dark-blue: #131a24;
 
 	background-color: var(--white);
 	color: var(--royal-blue);
-
-	/* overflow-x: hidden; */
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -27,9 +26,12 @@
 	-webkit-text-size-adjust: 100%;
 }
 
-/* html {
-	scroll-snap-type: y proximity;
-} */
+@media (prefers-color-scheme: dark) {
+	:root {
+		color: var(--white);
+		background-color: var(--dark-blue);
+	}
+}
 
 p {
 	font-family: 'Nunito', sans-serif;
