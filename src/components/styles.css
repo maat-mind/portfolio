@@ -44,3 +44,9 @@
 	font-weight: bold;
 	font-family: ui-sans-serif, 'Segoe UI', Arial, sans-serif;
 }
+
+@media (prefers-color-scheme: dark) {
+	.showMenuNav {
+		background-color: var(--dark-blue);
+	}
+}

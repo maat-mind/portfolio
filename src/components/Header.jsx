@@ -49,7 +49,7 @@ export default function Header() {
 							</svg>
 						</div>
 
-						<ul className='flex flex-col items-center justify-between min-h-[250px]'>
+						<ul className='flex flex-col items-center border-y justify-between min-h-[250px]'>
 							<li className='my-8 uppercase'>
 								<a onClick={handleClickLink} href='#about'>
 									About
@@ -79,7 +79,7 @@ export default function Header() {
 									GitHub
 								</a>
 							</li>
-							<li className='border-b border-gray-400 my-8 uppercase'>
+							<li className='border-gray-400 my-8 uppercase'>
 								<a
 									onClick={handleClickLink}
 									href='https://linkedin.com/in/maat-mind'
