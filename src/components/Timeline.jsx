@@ -63,6 +63,23 @@ export default function Timeline() {
 					Redux Toolkit, MongoDB and Auth0.
 				</p>
 			</li>
+			<li className='ml-4'>
+				<div className='absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white'></div>
+				<time className='mb-1 text-sm font-normal leading-none text-gray-400 '>
+					March 2023 - September 2023
+				</time>
+				<h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+					Fullstack developer
+				</h3>
+				<p className='mb-4 text-base font-normal text-gray-500 '>
+					Formation highly oriented on projects in HTML & CSS, JS, Node,
+					Express, React, Redux and PostgreSQL.
+				</p>
+
+				<p className='mb-4 text-base font-normal text-gray-500 '>
+					I was deeply involved in the development of JavaScript and PHP applications. I proposed and executed methods to seamlessly integrate diverse applications, demonstrating my problem-solving skills. I used agile software development methodologies for the implementation of software solutions, ensuring an efficient and adaptable approach to development. This experience exemplifies my capabilities as a web developer in a real-world context.
+				</p>
+			</li>
 		</ol>
 	)
 }
